@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Z-Index</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div draggable="true" ondragstart="handle3(event)" id="box1" class="box" style=" top:25px;left:160px;">
+            <span class="icons fas fa-3x fa-caret-left" style="left:0; top:40%;"></span>
+            <span class="icons fas fa-3x fa-caret-right" style="right:0; top:40%;"></span>
+            <span class="icons fas fa-3x fa-caret-up" style="top:0; left:40%;"></span>
+            <span class="icons fas fa-3x fa-caret-down" style="bottom:0; left:40%;"></span>
+        </div>
+        <div draggable="true" ondragstart="handle3(event)" id="box2" class="box" style="top:120px;left:70px;">
+            <span class="icons fas fa-3x fa-caret-left" style="left:0; top:40%;"></span>
+            <span class="icons fas fa-3x fa-caret-right" style="right:0; top:40%;"></span>
+            <span class="icons fas fa-3x fa-caret-up" style="top:0; left:40%;"></span>
+            <span class="icons fas fa-3x fa-caret-down" style="bottom:0; left:40%;"></span>
+        </div>
+        <div draggable="true" ondragstart="handle3(event)" id="box3" class="box" style="top:35px;left:0px;">
+            <span class="icons fas fa-3x fa-caret-left" style="left:0; top:40%;"></span>
+            <span class="icons fas fa-3x fa-caret-right" style="right:0; top:40%;"></span>
+            <span class="icons fas fa-3x fa-caret-up" style="top:0; left:40%;"></span>
+            <span class="icons fas fa-3x fa-caret-down" style="bottom:0; left:40%;"></span>
+        </div>
+    </div>
+    <div class="dropable" ondragover="allowDrop(event)" ondrop="drop(event)">
+
+    </div>
+</body>
+<script src="index.js"></script>
+
+</html>
