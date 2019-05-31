@@ -8,13 +8,15 @@
     display:inline-block;
 }
 
-
 .icons{
     position:absolute;
-
+    color:white;
 }
 
-
+.arrows .icons
+{
+    color:black;
+}
 
 /* Style for Boxes */
 .box{
@@ -24,47 +26,38 @@
     top:100px;
     border:2px solid black;
     box-sizing: border-box;
+    background:#E0D2D2;
 }
 
-#box1{
-   
-    background:yellow;
+#box1
+{
 }
 
 #box2{
     top:120px;
     left:70px;
-    background:blue;
 }
 
 #box3{
     top:35px;
     left:0px;
-    background:green;
 }
-
 
 /* For the window navbar */
 .navbar
 {
-    background:white;
+    background:black;
     position:relative;
-    height:10%;
+    height:20px;
 }
 
-.fa-times:hover{
-    color:blue;
-}
-
-.fa-times:active{
+.navbar .icons:hover{
     color:purple;
 }
 
-.window-maximize-2:hover, .window-maximize-1:hover
-{
+.navbar .icons:active{
     color:blue;
 }
-
 
 .window-maximize-2
 {

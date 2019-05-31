@@ -93,7 +93,6 @@ closeButton.forEach(function(value){
     value.addEventListener("click",function(){
         this.parentNode.parentNode.style.display = "none";
         this.style.color = "blue";
-        this.previousElementSibling.previousElementSibling.style.display = "block";
     });
 })
 
