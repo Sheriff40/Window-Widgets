@@ -14,22 +14,46 @@
     <div class="container"> Draggable
     
         <div draggable="true" ondragstart="handle3(event)" id="box1" class="box" style=" top:25px;left:160px;">
-            <span class="icons fas fa-3x fa-caret-left" style="left:0; top:40%;"></span>
-            <span class="icons fas fa-3x fa-caret-right" style="right:0; top:40%;"></span>
-            <span class="icons fas fa-3x fa-caret-up" style="top:0; left:40%;"></span>
-            <span class="icons fas fa-3x fa-caret-down" style="bottom:0; left:40%;"></span>
+            <div class="arrows">
+                <span class="icons fas fa-3x fa-caret-left" style="left:0; top:40%;"></span>
+                <span class="icons fas fa-3x fa-caret-right" style="right:0; top:40%;"></span>
+                <span class="icons fas fa-3x fa-caret-up" style="top:0; left:40%;"></span>
+                <span class="icons fas fa-3x fa-caret-down" style="bottom:0; left:40%;"></span>
+            </div>
+            <div class="navbar">
+                <span class="icons fas fa-times" style="top:0;right:2%;"></span>
+                <span class="icons fas fa-window-maximize window-maximize-1" style="top:0;right:12%;"></span>
+                <span class="icons far fa-window-maximize window-maximize-2" style="top:0;right:12%;"></span>              
+                <span class="icons fas fa-minus" style="top:0;right:22%;"></span>
+            </div>
         </div>
-        <div draggable="true" ondragstart="handle3(event)" id="box2" class="box" style="top:120px;left:70px;">
-            <span class="icons fas fa-3x fa-caret-left" style="left:0; top:40%;"></span>
-            <span class="icons fas fa-3x fa-caret-right" style="right:0; top:40%;"></span>
-            <span class="icons fas fa-3x fa-caret-up" style="top:0; left:40%;"></span>
-            <span class="icons fas fa-3x fa-caret-down" style="bottom:0; left:40%;"></span>
+        <div draggable="true" ondragstart="handle3(event)" id="box2" class="box" style="top:120px;left:100px;">
+            <div class="arrows">
+                <span class="icons fas fa-3x fa-caret-left" style="left:0; top:40%;"></span>
+                <span class="icons fas fa-3x fa-caret-right" style="right:0; top:40%;"></span>
+                <span class="icons fas fa-3x fa-caret-up" style="top:0; left:40%;"></span>
+                <span class="icons fas fa-3x fa-caret-down" style="bottom:0; left:40%;"></span>
+            </div>
+            <div class="navbar">
+                <span class="icons fas fa-times" style="top:0;right:2%;"></span>
+                <span class="icons fas fa-window-maximize window-maximize-1" style="top:0;right:12%;"></span>
+                <span class="icons far fa-window-maximize window-maximize-2" style="top:0;right:12%;"></span>              
+                <span class="icons fas fa-minus" style="top:0;right:22%;"></span>
+            </div>
         </div>
         <div draggable="true" ondragstart="handle3(event)" id="box3" class="box" style="top:35px;left:0px;">
-            <span class="icons fas fa-3x fa-caret-left" style="left:0; top:40%;"></span>
-            <span class="icons fas fa-3x fa-caret-right" style="right:0; top:40%;"></span>
-            <span class="icons fas fa-3x fa-caret-up" style="top:0; left:40%;"></span>
-            <span class="icons fas fa-3x fa-caret-down" style="bottom:0; left:40%;"></span>
+            <div class="arrows">
+                <span class="icons fas fa-3x fa-caret-left" style="left:0; top:40%;"></span>
+                <span class="icons fas fa-3x fa-caret-right" style="right:0; top:40%;"></span>
+                <span class="icons fas fa-3x fa-caret-up" style="top:0; left:40%;"></span>
+                <span class="icons fas fa-3x fa-caret-down" style="bottom:0; left:40%;"></span>
+            </div> 
+            <div class="navbar">
+                <span class="icons fas fa-times" style="top:0;right:2%;"></span>
+                <span class="icons fas fa-window-maximize window-maximize-1" style="top:0;right:12%;"></span>
+                <span class="icons far fa-window-maximize window-maximize-2" style="top:0;right:12%;"></span>              
+                <span class="icons fas fa-minus" style="top:0;right:22%;"></span>
+            </div>
         </div>
     </div>
     <div class="dropable" ondragover="allowDrop(event)" ondrop="drop(event)">
